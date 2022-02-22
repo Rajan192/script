@@ -42,7 +42,7 @@ for(collection of allCollection){
 const mysql = require("mysql");
 const { join } = require("path");
 const util = require('util');
-const stripe = require('stripe')('sk_test_51JvyKsSIQ4PXm8hj7wT60Q8USfoL7M0iyCpaybK5BOY7ETYYqtKnnY1ixaX19xW7jqpgz3foyN50cYu3AWB26gkZ00xX0uwzAn');
+const stripe = require('stripe')('');
 
 (async () => {
     const synApp_mysql = {
